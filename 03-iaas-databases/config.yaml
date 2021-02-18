@@ -1,0 +1,5 @@
+databases:
+  cmpu3055_lab03:
+    host: my_db.postgres.database.azure.com
+    user: my_user
+    password: my_password

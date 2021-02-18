@@ -1,0 +1,38 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero:before {
+  position: absolute;
+  content: "";
+  background-image: url("images/pexels-james-wheeler-417074.jpg");
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.75;
+}
+
+.title {
+  font-size: 5em;
+  color: white;
+  z-index: 100;
+}
