@@ -22,8 +22,8 @@ sudo usermod -G docker -a parallels`
 
 ### Make the REST API calls
 
-`
+```
 curl http://172.17.0.3:5000/customers
 curl http://172.17.0.3:5000/customers/1
 
-`
+```
