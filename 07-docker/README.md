@@ -1,4 +1,4 @@
-### Install Docker
+### Install Docker (Debian-based systems)
 
 ```
 sudo apt update
@@ -18,7 +18,10 @@ sudo usermod -G docker -a parallels`
 
 ### Run the container and make sure it worked
 
-`docker run -d --name flask-app my-flask-app docker container list`
+```
+docker run -d --name flask-app my-flask-app
+docker container list
+```
 
 ### Make the REST API calls
 
