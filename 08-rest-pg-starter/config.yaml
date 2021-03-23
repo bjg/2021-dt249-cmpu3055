@@ -1,0 +1,5 @@
+databases:
+  21-3055-12345678-db4:
+    host: 21-3055-12345678-db4.postgres.database.azure.com
+    user: cmpu3055
+    password: bBFYNE2cFwh55tgJ
